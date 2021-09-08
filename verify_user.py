@@ -15,7 +15,7 @@ def greet_user(filename):
     # Ask if the stored username is the right username
     if username:
         active = input("Enter \"yes\" to confirm.\n"
-            f"Is this: {username} your username? ")
+            f"Is this your username? \"{username}\" ")
         if active == "yes":
             print(f"Welcome back {username}!")
         else:
